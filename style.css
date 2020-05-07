@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+#foot{
+  text-align: center;
+  background-color: #E5E7E9;
+  padding:40px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #808B96;
+
+}
+
+#box{
+ margin-top: -104px;
+}
+
+#lang{
+  text-align: right;
+  margin-right: 32px;
+  margin-top: -38px;
+}
+
+
+#btn{
+  padding:0;
+  max-width: 30px;
+  border-color: transparent;
+  margin-top: 354px;
+  margin-left: -164px;
+ position:relative;  
+
+}
+
+#btn2{
+  padding:0;
+  max-width: 30px;
+  border-color: transparent;
+  margin-top: 354px;
+  margin-left: -200px;
+ position:relative; 
+ 
+}
+
+#Title{
+  font-family: 'Perpetua';
+  font-size: 16px;
+  text-align: left;
+  margin-top:28px;
+  margin-left: 40px;
+}
+
+
+#T3{
+  margin-left: 78px;
+  margin-top: -42px;
+  font-size:13px;
+
+}
+
+.w{
+  text-align: left;
+  margin-left: -740px;
+  margin-top: 12px;
+  font-family:Arial;
+  color:gray;
+}
+
+#sub{
+  font-size: 12px;
+  margin-top: 350px;
+}
+
+#des{
+  font-size: 10px;
+  margin-top: -24px;
+  margin-left: 106px;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.trigger {
+  position: absolute;
+}
+.trigger--one {
+  left: 0;
+}
+
+.scene {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.scene--active {
+  position: fixed;
+}
+.scene--ended {
+  position: absolute;
+  bottom: 0;
+  top: auto;
+}
+
+.horizontal-scroll-section {
+  position: relative;
+  min-height: 100vh;
+  opacity: 0;
+  transition: 0.2s opacity;
+  margin-top: -80px;
+
+}
+.horizontal-scroll-section img {
+  display: block;
+  max-height: 80%;
+  width: auto;
+}
+.horizontal-scroll-section--init {
+  opacity: 1;
+}
+.horizontal-scroll-section__content {
+  display: flex;
+  align-items: center;
+}
+.horizontal-scroll-section__content-wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+.horizontal-scroll-section__content-section {
+  
+  position: relative;
+  min-width: 26vw;
+  text-align: center;
+  padding: 0 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+.horizontal-scroll-section__image {
+  display: flex;
+  align-items: center;
+}
+.horizontal-scroll-section__image h2 {
+  margin-left: 20px;
+  width: 250px;
+  text-align: left;
+  flex-shrink: 0;
+}
+.horizontal-scroll-section__image--two img {
+  max-width: 400px;
+}
+.horizontal-scroll-section__image--four img {
+  max-width: 400px;
+}
+.horizontal-scroll-section--animation-one .horizontal-scroll-section__image--two {
+  opacity: 1;
+  transform: translateX(0);
+}
